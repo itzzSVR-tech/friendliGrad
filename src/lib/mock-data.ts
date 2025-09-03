@@ -1,0 +1,150 @@
+import type { AlumniProfile, AlumniEvent, NewsArticle, SuccessStory } from './types';
+
+export const mockAlumni: AlumniProfile[] = [
+  {
+    id: '1',
+    name: 'Jane Doe',
+    avatarUrl: 'https://picsum.photos/100/100?random=1',
+    graduationYear: 2015,
+    major: 'Computer Science',
+    profession: 'Software Engineer',
+    location: 'San Francisco, CA',
+    bio: 'Passionate software engineer with a focus on frontend development and user experience. Currently working at a leading tech company, building innovative web applications.',
+    workExperience: [
+      { title: 'Senior Software Engineer', company: 'Tech Corp', years: '2020-Present' },
+      { title: 'Software Engineer', company: 'Innovate LLC', years: '2017-2020' },
+      { title: 'Junior Developer', company: 'StartupX', years: '2015-2017' },
+    ],
+    contact: { email: 'jane.doe@example.com', linkedin: 'linkedin.com/in/janedoe' },
+    skills: ['React', 'TypeScript', 'Node.js', 'UI/UX Design', 'Project Management'],
+  },
+  {
+    id: '2',
+    name: 'John Smith',
+    avatarUrl: 'https://picsum.photos/100/100?random=2',
+    graduationYear: 2018,
+    major: 'Marketing',
+    profession: 'Marketing Manager',
+    location: 'New York, NY',
+    bio: 'Results-driven marketing professional with experience in digital strategy, brand management, and campaign execution. I thrive in fast-paced environments and enjoy tackling new challenges.',
+    workExperience: [
+        { title: 'Marketing Manager', company: 'Global Marketing Inc.', years: '2021-Present' },
+        { title: 'Marketing Specialist', company: 'Creative Solutions', years: '2018-2021' },
+    ],
+    contact: { email: 'john.smith@example.com', linkedin: 'linkedin.com/in/johnsmith' },
+    skills: ['Digital Marketing', 'SEO', 'Content Strategy', 'Social Media Marketing', 'Google Analytics'],
+  },
+  {
+    id: '3',
+    name: 'Emily White',
+    avatarUrl: 'https://picsum.photos/100/100?random=3',
+    graduationYear: 2020,
+    major: 'Graphic Design',
+    profession: 'UI/UX Designer',
+    location: 'Austin, TX',
+    bio: 'Creative and detail-oriented UI/UX designer with a passion for creating beautiful and intuitive digital experiences. My design philosophy is centered around empathy and user-centricity.',
+    workExperience: [
+        { title: 'UI/UX Designer', company: 'DesignHub', years: '2020-Present' },
+    ],
+    contact: { email: 'emily.white@example.com', linkedin: 'linkedin.com/in/emilywhite' },
+    skills: ['Figma', 'Adobe XD', 'User Research', 'Wireframing', 'Prototyping'],
+  },
+  {
+    id: '4',
+    name: 'Michael Brown',
+    avatarUrl: 'https://picsum.photos/100/100?random=4',
+    graduationYear: 2012,
+    major: 'Business Administration',
+    profession: 'Product Manager',
+    location: 'Seattle, WA',
+    bio: 'Experienced Product Manager with a track record of launching successful products. I bridge the gap between technical and business teams to deliver value to users.',
+    workExperience: [
+        { title: 'Senior Product Manager', company: 'FutureTech', years: '2018-Present' },
+        { title: 'Product Manager', company: 'Agile Innovations', years: '2015-2018' },
+        { title: 'Business Analyst', company: 'Data Insights', years: '2012-2015' },
+    ],
+    contact: { email: 'michael.brown@example.com', linkedin: 'linkedin.com/in/michaelbrown' },
+    skills: ['Product Strategy', 'Agile Methodologies', 'Roadmap Planning', 'User Stories', 'Market Analysis'],
+  },
+];
+
+export const mockEvents: AlumniEvent[] = [
+  {
+    id: '1',
+    title: 'Annual Alumni Homecoming Gala',
+    date: '2024-10-25',
+    location: 'University Grand Hall',
+    description: 'Join us for a night of celebration, networking, and reminiscing. The annual homecoming gala is our flagship event of the year!',
+    imageUrl: 'https://picsum.photos/600/400?random=11',
+  },
+  {
+    id: '2',
+    title: 'Tech Alumni Network Mixer',
+    date: '2024-11-15',
+    location: 'Silicon Valley Campus',
+    description: 'Connect with fellow alumni in the tech industry. Share insights, discuss trends, and expand your professional network.',
+    imageUrl: 'https://picsum.photos/600/400?random=12',
+  },
+  {
+    id: '3',
+    title: 'Webinar: The Future of AI',
+    date: '2024-12-05',
+    location: 'Online',
+    description: 'A virtual panel discussion with leading alumni experts on the transformative impact of Artificial Intelligence.',
+    imageUrl: 'https://picsum.photos/600/400?random=13',
+  },
+];
+
+export const mockNews: NewsArticle[] = [
+  {
+    id: '1',
+    title: 'University Announces New Science &amp; Technology Center',
+    date: '2024-09-01',
+    snippet: 'The university has broken ground on a new state-of-the-art facility dedicated to science and technology research...',
+    author: 'University Communications',
+    imageUrl: 'https://picsum.photos/300/200?random=21',
+  },
+  {
+    id: '2',
+    title: 'Alumni Scholarship Fund Reaches Record High',
+    date: '2024-08-20',
+    snippet: 'Thanks to the generous contributions of our alumni, the scholarship fund has surpassed all previous records, providing more students with financial aid...',
+    author: 'Alumni Association',
+    imageUrl: 'https://picsum.photos/300/200?random=22',
+  },
+  {
+    id: '3',
+    title: 'Prof. Eleanor Vance Wins Prestigious Research Award',
+    date: '2024-08-15',
+    snippet: 'Long-time faculty member Prof. Eleanor Vance has been recognized for her groundbreaking work in environmental science...',
+    author: 'University Communications',
+    imageUrl: 'https://picsum.photos/300/200?random=23',
+  },
+];
+
+export const mockSuccessStories: SuccessStory[] = [
+  {
+    id: '1',
+    title: 'From Classroom to Unicorn: The Story of Innovate LLC',
+    alumniName: 'Jane Doe',
+    graduationYear: 2015,
+    story: 'Jane Doe, a 2015 Computer Science graduate, turned her senior project into a billion-dollar company. Innovate LLC is now a leader in cloud solutions...',
+    imageUrl: 'https://picsum.photos/600/400?random=31',
+  },
+  {
+    id: '2',
+    title: 'A Creative Journey: Designing for the World Stage',
+    alumniName: 'Emily White',
+    graduationYear: 2020,
+    story: 'Just a few years after graduating, Emily White is already making waves in the design world. Her work has been featured in international design magazines...',
+    imageUrl: 'https://picsum.photos/600/400?random=32',
+  },
+  {
+    id: '3',
+    title: 'The Art of the Deal: A Marketing Guru\'s Rise',
+    alumniName: 'John Smith',
+    graduationYear: 2018,
+    story: 'John Smith has quickly climbed the corporate ladder, becoming one of the youngest marketing managers at a Fortune 500 company...',
+    imageUrl: 'https://picsum.photos/600/400?random=33',
+  },
+];

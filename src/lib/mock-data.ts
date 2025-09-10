@@ -3,7 +3,7 @@ import type { AlumniProfile, AlumniEvent, NewsArticle, SuccessStory } from './ty
 export const mockAlumni: AlumniProfile[] = [
   {
     id: '1',
-    name: 'Jane Doe',
+    name: 'SarVeshvarn R',
     avatarUrl: 'https://picsum.photos/100/100?random=1',
     graduationYear: 2015,
     major: 'Computer Science',
@@ -20,7 +20,7 @@ export const mockAlumni: AlumniProfile[] = [
   },
   {
     id: '2',
-    name: 'John Smith',
+    name: 'G.N.SriHari',
     avatarUrl: 'https://picsum.photos/100/100?random=2',
     graduationYear: 2018,
     major: 'Marketing',
@@ -36,7 +36,7 @@ export const mockAlumni: AlumniProfile[] = [
   },
   {
     id: '3',
-    name: 'Emily White',
+    name: 'Yaswanth R',
     avatarUrl: 'https://picsum.photos/100/100?random=3',
     graduationYear: 2020,
     major: 'Graphic Design',
@@ -51,7 +51,7 @@ export const mockAlumni: AlumniProfile[] = [
   },
   {
     id: '4',
-    name: 'Michael Brown',
+    name: 'Aadharshini',
     avatarUrl: 'https://picsum.photos/100/100?random=4',
     graduationYear: 2012,
     major: 'Business Administration',
@@ -64,6 +64,40 @@ export const mockAlumni: AlumniProfile[] = [
         { title: 'Business Analyst', company: 'Data Insights', years: '2012-2015' },
     ],
     contact: { email: 'michael.brown@example.com', linkedin: 'linkedin.com/in/michaelbrown' },
+    skills: ['Product Strategy', 'Agile Methodologies', 'Roadmap Planning', 'User Stories', 'Market Analysis'],
+  },
+  {
+    id: '5',
+    name: 'Naveen R',
+    avatarUrl: 'https://picsum.photos/100/100?random=5',
+    graduationYear: 2014,
+    major: 'Ecomonics',
+    profession: 'Product Manager',
+    location: 'Los Angeles, LA',
+    bio: 'Experienced Product Manager with a track record of launching successful products. I bridge the gap between technical and business teams to deliver value to users.',
+    workExperience: [
+        { title: 'Senior Product Manager', company: 'FutureTech', years: '2018-Present' },
+        { title: 'Product Manager', company: 'Agile Innovations', years: '2015-2018' },
+        { title: 'Business Analyst', company: 'Data Insights', years: '2012-2015' },
+    ],
+    contact: { email: 'michael.brown@example.com', linkedin: 'linkedin.com/in/michaelbrown' },
+    skills: ['Product Strategy', 'Agile Methodologies', 'Roadmap Planning', 'User Stories', 'Market Analysis'],
+  },
+  {
+    id: '6',
+    name: 'Divakar R',
+    avatarUrl: 'https://picsum.photos/100/100?random=6',
+    graduationYear: 2013,
+    major: 'Social Sciences',
+    profession: 'Product Manager',
+    location: 'San Diego, CA',
+    bio: 'Experienced Product Manager with a track record of launching successful products. I bridge the gap between technical and business teams to deliver value to users.',
+    workExperience: [
+        { title: 'Senior Product Manager', company: 'FutureTech', years: '2018-Present' },
+        { title: 'Product Manager', company: 'Agile Innovations', years: '2015-2018' },
+        { title: 'Business Analyst', company: 'Data Insights', years: '2012-2015' },
+    ],
+    contact: { email: 'divakar.r@example.com', linkedin: 'linkedin.com/in/divakar' },
     skills: ['Product Strategy', 'Agile Methodologies', 'Roadmap Planning', 'User Stories', 'Market Analysis'],
   },
 ];

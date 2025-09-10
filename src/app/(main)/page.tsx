@@ -30,7 +30,7 @@ export default function DashboardPage() {
               </h1>
               <p className="text-lg md:text-xl text-primary-foreground/90 max-w-3xl">
                 Your central hub for staying connected with our vibrant alumni
-                community. Rediscover, reconnect, and grow together.
+                community.<br />Rediscover, reconnect, and grow together.
               </p>
             </div>
           </div>

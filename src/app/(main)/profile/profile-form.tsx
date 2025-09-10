@@ -54,8 +54,8 @@ export function ProfileForm() {
   const form = useForm<z.infer<typeof profileSchema>>({
     resolver: zodResolver(profileSchema),
     defaultValues: {
-      name: "Jane Doe",
-      email: "jane.doe@example.com",
+      name: "SarVeshvarn R",
+      email: "svr@example.com",
       graduationYear: 2015,
       major: "Computer Science",
       profession: "Software Engineer",
